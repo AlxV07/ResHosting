@@ -1,10 +1,11 @@
+//https://threejs.org/examples/jsm/postprocessing/EffectComposer.js
 import {
 	Clock,
 	HalfFloatType,
 	NoBlending,
 	Vector2,
 	WebGLRenderTarget
-} from 'three';
+} from '../three.module.js';
 import { CopyShader } from '../shaders/CopyShader.js';
 import { ShaderPass } from './ShaderPass.js';
 import { ClearMaskPass, MaskPass } from './MaskPass.js';
